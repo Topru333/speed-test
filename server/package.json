@@ -1,0 +1,25 @@
+{
+  "name": "test-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodesrc/main.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "start": "nodemon --ext js --watch nodesrc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-addon-api": "^1.7.1",
+    "nodemon": "^1.19.1"
+  }
+}
