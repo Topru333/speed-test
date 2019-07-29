@@ -1,6 +1,6 @@
 # speed-test-client
 
-> client for speed test of c++ and js
+> client for speed test of c++ against js
 
 ## Build Setup
 

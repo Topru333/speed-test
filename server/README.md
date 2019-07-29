@@ -1,6 +1,6 @@
 # speed-test-server
 
-> Server for speed test of c++ and js
+> Server for speed test of c++ against js
 
 ## Build Setup
 
@@ -14,5 +14,5 @@ npm run start
 # build cpp code
 npm run build
 
-# clean cpp compiled files 
+# clean cpp compiled files
 npm run clean
